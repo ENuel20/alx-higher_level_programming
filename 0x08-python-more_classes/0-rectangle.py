@@ -1,6 +1,7 @@
 #!/usr/bin/python3
+
+""" define the python class."""
+
 class Rectangle:
-    ''' definition of a rectangle
-    with one block
-    '''
+    """ represent a rectangle."""
     pass
