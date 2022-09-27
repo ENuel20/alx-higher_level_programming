@@ -8,4 +8,4 @@ def lookup(obj):
     """ return the list ttributes and methods of a function"""
 
     obj = []
-    return (obj__dir__())
+    return dir(obj)
