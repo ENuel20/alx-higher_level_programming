@@ -1,6 +1,7 @@
 #!/usr/bin/python3
-# Using nested loops to iterate through all possible combinations of two digits
-for i in range(10):
-    for j in range(i + 1, 10):  # Start from i+1 to avoid duplicates and combinations with the same digits
-        # Print the combination with two digits
-        print("{:02d}, ".format(i * 10 + j), end='')
+for x in range(0, 10):
+    for y in range(x + 1, 10):
+        if x == 8 and y == 9:
+            print('89')
+        else:
+            print('{}{}, '.format(x, y), end='')
